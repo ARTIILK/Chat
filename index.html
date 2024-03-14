@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <script src="https://7be8ca1322004475b09696cff1b92fec.weavy.io/uikit-web/weavy.js"></script>
+    <script>
+        const weavy = new Weavy();
+        // url to your Weavy environment
+        weavy.url = "https://7be8ca1322004475b09696cff1b92fec.weavy.io";
+        // token factory that returns the access_token for your demo user
+        weavy.tokenFactory = async () => "wyu_wJ5Y55ynBt8R1ET2QMfEGzEYeelmDM2Zo5zh";
+    </script>
+</head>
+<body>
+    <wy-messenger></wy-messenger>
+    <!-- Your other HTML content goes here -->
+</body>
+</html>
